@@ -3,12 +3,15 @@ body {
     margin: 0px;
 }
 
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
+    height: calc(100vh - 47px);
+    border: 3px;
 }
 /* Nav Styles */
-.nav-wrapper {
+.nav-wrapper-top {
     display: flex;
     justify-content: space-between;
     padding-top: 1.5rem;
@@ -21,14 +24,13 @@ body {
     display: flex;
 }
 
-.nav-wrapper > .left-side > div {
+.nav-wrapper-top > .left-side > div {
     margin-right: 20px;
     font-size: 13px;
 }
 
 .nav-link-wrapper {
     height: 22px;
-    border-bottom: 1px solid transparent;
 }
 
 .nav-link-wrapper img {
@@ -64,7 +66,7 @@ body {
     display: flex;
 }
 
-.nav-wrapper > .right-side > div {
+.nav-wrapper-top > .right-side > div {
     margin-right: 20px;
     font-size: 13px;
 }
@@ -85,4 +87,50 @@ body {
 
 .nav-icon-wrapper a:visited {
     color: #494949;
+}
+
+
+.nav-wrapper-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2;
+    border-top: solid 1px #E4E4E4;
+}
+
+.nav-wrapper-bottom > .left-side > div {
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.nav-wrapper-bottom > .right-side > div {
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.nav-link-bottom-wrapper a {
+    color: #494949;
+    text-decoration: none;
+}
+
+.nav-link-bottom-wrapper:hover {
+    border-bottom: 1px solid #494949;
+}
+
+.nav-link-bottom-wrapper a:hover {
+    color: #494949;
+}
+
+.nav-link-bottom-wrapper a:visited {
+    color: #494949;
+}
+
+.nav-link-bottom-wrapper {
+    height: 22px;
+    position: relative;
+    top: 50%;
+    
 }
