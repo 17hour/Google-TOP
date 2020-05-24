@@ -1,0 +1,91 @@
+/* Master Styles */
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* Nav Styles */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-link-wrapper img {
+    height: 32px;
+    width: 32px;
+    margin: auto;
+    position: absolute;
+    top: 1rem;
+}
+
+.nav-icon-wrapper {
+    height: 22px;
+}
+
+
+.nav-link-wrapper a {
+    color: #494949;
+    text-decoration: none;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid #494949;
+}
+
+.nav-link-wrapper a:hover {
+    color: #494949;
+}
+
+
+.right-side {
+    font-size: 13px;
+    color: #494949;
+    display: flex;
+}
+
+.nav-wrapper > .right-side > div {
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.nav-icon-wrapper a {
+    color: #494949;
+    text-decoration: none;
+}
+
+.nav-icon-wrapper:hover {
+
+}
+
+.nav-icon-wrapper a:hover {
+    color: #494949;
+}
+
+.nav-link-wrapper a:visited {
+    color: #494949;
+}
+
+.nav-icon-wrapper a:visited {
+    color: #494949;
+}
