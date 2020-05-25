@@ -134,3 +134,104 @@ body {
     top: 50%;
     
 }
+
+
+.logo {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: -75px 0 0 -145px;
+
+}
+
+input{
+    border: none;
+    position: absolute;
+    top: 60%;
+    left: 48%;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 482px;
+    border:1px solid #eaeaea;
+    border-radius: 20px;
+    outline:none;
+    margin: -241px 0 0 -241px;
+
+}
+input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+input:focus{
+    border-color:#4d90fe;
+}
+
+input[type="submit"] {
+    border-radius: 5px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 13px;
+    font-weight: bold;
+    width: 127px;
+    padding: 0 16px;
+    height: 36px;
+    top: 50%;
+    left: 53%;
+    margin: -63.5px 0 0 -203.5px;
+    text-align: center;
+}
+input[type="submit2"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+
+input[type="submit2"] {
+    border-radius: 5px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 13px;
+    font-weight: bold;
+    width: 127px;
+    padding: 0 16px;
+    height: 34px;
+    top: 50%;
+    left: 54%;
+    margin: -63.5px 0 0 -63.5px;
+    text-align: center;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+
+}
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
